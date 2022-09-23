@@ -1,0 +1,18 @@
+archi1=open("datos.txt","w")
+archi1.write("laboratorio ")
+archi1.close()
+archi1=open("datos.txt","r")
+contenido=archi1.read()
+
+archi2=open("datos.txt", "a")
+archi2.write("de algoritmos")
+archi2.close()
+archi2=open("datos.txt","r")
+contenido=archi2.read()
+
+archi3=open("datos.txt","a")
+archi3.write(" y estructura de datos")
+archi3.close()
+archi3=open("datos.txt","r")
+contenido=archi3.read()
+print(contenido)
