@@ -1,0 +1,6 @@
+archi1=open("informacion.txt","r+",encoding="utf-8")
+contenido=archi1.read()
+print(contenido)
+archi1.write("Otra línea Ñ 1\n") 
+archi1.write("Otra línea 2\n")
+archi1.close()
